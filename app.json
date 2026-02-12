@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "mobile-dev-template",
-    "slug": "mobile-dev-template",
+    "name": "manga-generator",
+    "slug": "manga-generator",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -10,7 +10,7 @@
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.rasult22.mobile-dev-template"
+      "bundleIdentifier": "com.rasult22.manga_generator"
     },
     "android": {
       "adaptiveIcon": {
@@ -20,7 +20,8 @@
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.rasult22.manga_generator"
     },
     "web": {
       "output": "static",
